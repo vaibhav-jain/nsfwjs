@@ -299,6 +299,7 @@ class App extends Component {
           <Loading showLoading={this.state.loading} />
           <Results
             message={this.state.message}
+            graphic={this.state.graphic}
             gifControl={this.state.gifControl}
             predictions={this.state.predictions}
           />
